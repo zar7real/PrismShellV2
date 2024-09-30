@@ -61,7 +61,7 @@ def start_server(server_ip, server_port):
  | |                                            
  |_|                                            
  
- Made by: alchemy | telegram: @alchemy000 | BACKDOOR | @RedSec
+ Made by: alchemy | telegram: @alchemy000 | BACKDOOR | 
  ============================================================                                         
  """)
     print(Fore.YELLOW + f"[!] Server listening on {server_ip}:{server_port}..."  + Fore.WHITE + " ")
